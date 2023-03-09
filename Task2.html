@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Phudu&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="form" action="/">
+      <h1 style="color: lavenderblush">SURVEY SIGNUP FORM</h1>
+      <div class="input-control">
+        <label for="username">Name</label>
+        <input id="username" name="username" type="text" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text" />
+        <div class="error"></div>
+      </div>
+	  <div class="input-control">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password2">Password again</label>
+        <input id="password2" name="password2" type="password" />
+        <div class="error"></div>
+      </div>
+      <label for="feedback">Experience Feedback:</label>
+      <textarea
+        id="feedback"
+        name="feedback"
+        placeholder="Enter your feedback"
+      ></textarea>
+      <input class="css-button-gradient--4" type="submit" value="Submit" />
+    </form>
+	<script defer src="task2.js"></script>
+  </body>
+</html>
